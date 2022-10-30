@@ -1,9 +1,9 @@
 :root {
 
-    --primary-background-color:#F5F5F5;
-    --secondary-background-color: #FFFFFF;
+    --primary-background-color: #FFFFFF;
     --hero-background-color: #2F303A;
     --section-backgroud-color: #F5F4FA; 
+    --footer-background-color:  #000000;
     --title-text-color: #212121;
     --hero-title-color:  #FFFFFF;
     --subtitle-text-color: #212121;
@@ -12,6 +12,7 @@
     --btn-background-color: #2196F3;
     --btn-text-color: #212121;
     --btn-text-color-active:  #FFFFFF;
+    --btn-background-active: #188CE8; 
     --logo-text: #000000; 
 
 }
@@ -37,9 +38,6 @@ body {
 
 /* ----------- ШАПКА-----------*/
 
-.header-page {
-    background-color: var(--secondary-background-color);
-}
 
 .logo {
     font-family: 'Raleway';
@@ -115,16 +113,12 @@ body {
 .hero-btn:hover,
 .hero-btn:focus {
     color: var(--hero-title-color);
-    background-color: var(--btn-background-color);
+    background: var(--btn-background-active);
 }
 
 /* ----------- НАШІ ОСОБЛИВОСТІ-----------*/
-.section {
-    background-color: var(--secondary-background-color);   
-}
 
 .section-subtitle {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -133,7 +127,6 @@ body {
 }
 
 .section-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -141,12 +134,9 @@ body {
 }
 
 /* ----------- ЧИМ МИ ЗАЙМАЄМОСЬ-----------*/
-.about {
-    background-color: var(--secondary-background-color);  
-}
+
 
 .about-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -159,12 +149,9 @@ body {
    background-color: var(--section-backgroud-color); 
 }
  
-.our-item {
-    background-color: var(--secondary-background-color);
-}
+
 
 .our-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -182,7 +169,6 @@ body {
 }
 
 .our-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -194,7 +180,7 @@ body {
  
 .footer-page {
     
-    background-color: #000000;
+    background-color: var(--footer-background-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -215,9 +201,7 @@ body {
 }
 
 /* -----------ПОРТФОЛІО----------- */
-.portfolio {
-    background-color: var(--secondary-background-color);
-}
+
 
 .portfolio-btn {
     font-weight: 500;
@@ -236,7 +220,6 @@ body {
 }
 
 .portfolio-subtitle {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -244,7 +227,6 @@ body {
 }
 
 .portfolio-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
